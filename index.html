@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PMO Control Tower</title>
+<meta name="description" content="A zero-dependency PMO dashboard: portfolio health, RAID, capacity, change control and status reports.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">C</span><span>PMO Control Tower</span></div>
+  <nav id="nav"></nav>
+  <div class="tools">
+    <select id="cur" class="btn" title="Currency symbol">
+      <option>$</option><option>₹</option><option>€</option><option>£</option>
+    </select>
+    <button class="btn" data-act="export">Export</button>
+    <button class="btn" data-act="import">Import</button>
+    <button class="btn ghost" data-act="reset">Reset demo</button>
+    <input type="file" id="file" accept="application/json" hidden>
+  </div>
+</header>
+<main id="app"></main>
+<footer>All data stays in your browser (localStorage). Demo data is synthetic.</footer>
+<script src="js/core.js"></script>
+<script src="js/sample-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
