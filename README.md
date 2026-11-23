@@ -6,7 +6,7 @@ No install. No build. No server. No data leaves your browser.
 
 ![Control Tower](docs/control-tower.png)
 
-**Live demo:** `https://YOUR-USERNAME.github.io/pmo-control-tower/` (after you enable GitHub Pages, see below)
+**Live demo:** `https://HeASailor.github.io/pmo-control-tower/` (GitHub Pages, deployed from main)
 
 ## Why
 
@@ -41,7 +41,7 @@ Hover a status chip to see exactly why it has that rating. Completed projects ar
 ## Run it
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pmo-control-tower
+git clone https://github.com/HeASailor/pmo-control-tower
 cd pmo-control-tower
 open index.html          # or: npm start  ->  http://localhost:8080
 ```
